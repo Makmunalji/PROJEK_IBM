@@ -14,7 +14,7 @@ Proyek ini bertujuan untuk mengklasifikasikan konten berita pariwisata Indonesia
 Klasifikasi dilakukan dengan bantuan **Large Language Model (LLM)** dari **IBM Granite** yang diakses melalui **Replicate API** dan diintegrasikan menggunakan framework **LangChain**.  
 
 Pipeline utama meliputi:
-- Pra-pemrosesan data teks (`judul` dan `konten`)
+- Pra-pemrosesan data teks (cleaning, case folding, stopword removal, tokenizing & stemming)
 - Penerapan model IBM Granite melalui prompt klasifikasi
 - Evaluasi akurasi dan f1-score menggunakan label manual
 - Visualisasi confusion matrix untuk analisis kesalahan
@@ -23,7 +23,7 @@ Pipeline utama meliputi:
 
 ## 🔗 3. Raw Dataset Link
 
-Dataset yang digunakan dalam penelitian ini merupakan kumpulan berita pariwisata yang telah diproses, terdiri dari judul dan isi berita.  
+Dataset yang digunakan dalam penelitian ini merupakan kumpulan berita pariwisata yang telah diproses dari hasil scrapy di website kompas, terdiri dari judul dan isi berita.  
 Jika kamu ingin melihat dataset mentah (raw), bisa mengaksesnya di sini:
 
 **[🔗 Link Dataset Mentah (CSV)](https://raw.githubusercontent.com/Makmunalji/PROJEK_IBM/refs/heads/main/kompas_travel_articles.csv)**  
