@@ -26,8 +26,8 @@ Pipeline utama meliputi:
 Dataset yang digunakan dalam penelitian ini merupakan kumpulan berita pariwisata yang telah diproses, terdiri dari judul dan isi berita.  
 Jika kamu ingin melihat dataset mentah (raw), bisa mengaksesnya di sini:
 
-**[🔗 Link Dataset Mentah (CSV)](https://example.com/pariwisata_raw_dataset.csv)**  
-> *Catatan: Link ini placeholder — silakan ganti dengan link asli jika tersedia.*
+**[🔗 Link Dataset Mentah (CSV)](https://raw.githubusercontent.com/Makmunalji/PROJEK_IBM/refs/heads/main/kompas_travel_articles.csv)**  
+
 
 ---
 
